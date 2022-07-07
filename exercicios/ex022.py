@@ -1,0 +1,11 @@
+#MODIFICA O NOME MAIUSCULO MINUSCULO QTND PN
+nome = str(input('Qual o seu nome?')).strip()
+print('Analisando seu nome...')
+print(f'seu nome com letras maiúsculas: {nome.upper()}')
+print(f'seu nome com letras minúsculas: {nome.lower()}')
+#qt = (len(nome))
+#espaços = (nome.count(' '))
+primeiro = (nome.split())
+#print(f'Seu primeiro nome é {primeiro[0]} e tem {len(primeiro[0])} letras')
+print(f'A quantidade de letras são {(len(nome) - nome.count(" "))}')
+print(f'Seu primeiro nome tem {nome.find(" ")} letras')
