@@ -1,0 +1,2 @@
+# cursoemvideoPYTHON
+aprender python
